@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.29
+
+Name: libns3-lte
+Description: ns-3 module ns3-lte
+Version: 3.29
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.29-lte-optimized
+Cflags: -I${includedir}
+Requires: libns3.29-core-optimized libns3.29-network-optimized libns3.29-spectrum-optimized libns3.29-stats-optimized libns3.29-buildings-optimized libns3.29-virtual-net-device-optimized libns3.29-point-to-point-optimized libns3.29-applications-optimized libns3.29-internet-optimized libns3.29-csma-optimized libns3.29-fd-net-device-optimized
