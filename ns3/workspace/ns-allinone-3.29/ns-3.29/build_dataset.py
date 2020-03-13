@@ -9,6 +9,7 @@ import os
 from os.path import join, expanduser
 
 from columns import *
+import sys
 
 start = time.process_time()
 
@@ -41,7 +42,7 @@ PERIOD_LENGTH = float(arguments[5])
 DISTRIBUTION = str(arguments[6])
 ns3_output_directory = str(arguments[7])
 ns3_base_directory = str(arguments[8])
-dataset_output_directory = str(arguments[9])
+dataset_output_directory = "datasets"
 
 PERIOD_LENGTH_NS = PERIOD_LENGTH*(10**9)
 ranges = np.arange(0, PERIODS*PERIOD_LENGTH_NS+PERIOD_LENGTH_NS, PERIOD_LENGTH_NS)
