@@ -1,3 +1,8 @@
+# Article
+This repository refers to the paper: **End-to-end Delay Prediction Based on Traffic Matrix Sampling.** 
+
+**Filip Krasniqi**, **Jocelyne Elias**, **Jeremie Leguay**, **Alessandro E. C. Redondi**. 
+IEEE INFOCOM WKSHPS - NI: The 3rd International Workshop on Network Intelligence. Toronto, July 2020.
 # Overview
 This repository contains the code that allows to generate and run an environment containing ns3 simulations. The simulations are implemented with the use of ns3 simulator (https://www.nsnam.org/); for more details on how to build the project and run with the (highly suggested) optimized compilation, have a look to the [tutorial](https://www.nsnam.org/docs/tutorial/html/). For those familiar to the simulator, the workspace contains the version **3.29**. In addition to ns3, some modules has been touched. The file [**requirements.txt**](https://github.com/filipkrasniqi/QoSML-simulations/blob/master/ns3/workspace/ns-allinone-3.29/ns-3.29/requirements.txt) contains all the python dependencies and they can be installed with pip. I will provide details on the code that creates the setting for the simulations, executes them and builds the dataset all according to the files (all in the [workspace](https://github.com/filipkrasniqi/QoSML-simulations/tree/master/ns3/workspace/ns-allinone-3.29) directory). In order:
 * [**generate_simulations.py**](https://github.com/filipkrasniqi/QoSML-simulations/blob/master/ns3/workspace/ns-allinone-3.29/ns-3.29/generate_simulations.py) requires a directory related to a topology, draws links and traffic distribution and for each instance of those it executes the related ns3 simulation
