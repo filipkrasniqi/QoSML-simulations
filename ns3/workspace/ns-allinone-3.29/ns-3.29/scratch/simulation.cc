@@ -1,3 +1,9 @@
+/*
+End-to-end Delay Prediction Based on Traffic Matrix Sampling. 
+Filip Krasniqi, Jocelyne Elias, Jeremie Leguay, Alessandro E. C. Redondi.
+IEEE INFOCOM WKSHPS - NI: The 3rd International Workshop on Network Intelligence. Toronto, July 2020.
+*/
+
 #include <fstream>
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
